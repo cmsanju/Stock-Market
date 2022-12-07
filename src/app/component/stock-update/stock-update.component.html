@@ -1,0 +1,30 @@
+<h3>
+    Update Stock
+  </h3>
+    <form (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" [(ngModel)]="stock.name" name="name">
+  </div>
+  <div class="form-group">
+    <label for="exchange">Exchange</label>
+    <input type="text" class="form-control" id="exchange" [(ngModel)]="stock.exchange" name="exchange">
+  </div>
+  <div class="form-group">
+    <label for="price">Price</label>
+    <input type="text" class="form-control" id="price" [(ngModel)]="stock.price" name="price">
+  </div>
+  <div class="form-group">
+    <label for="priceDate">PriceDate</label>
+    <input type="text" class="form-control" id="priceDate" [(ngModel)]="stock.priceDate" name="priceDate">
+  
+  </div>
+  <div class="form-group">
+    <label for="priceTime">PriceTime</label>
+    <input type="text" class="form-control" id="priceTime" [(ngModel)]="stock.priceTime" name="priceTime">
+  </div>
+  <button style='margin-right:16px' class="btn btn-success">Submit</button>
+  <button style='margin-right:16px' (click)="list()" class="btn btn-success">Back to Stocks</button>
+  
+  </form>
+  

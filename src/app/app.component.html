@@ -1,0 +1,51 @@
+
+
+
+<div>
+  <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+    <ul class="navbar-nav">
+        
+      <li class="nav-item active">
+        <a class="navbar-brand" href="#">STOCK MARKET</a>
+      </li>
+      
+
+      <li class="nav-item">
+        <a class="nav-link"  routerLink="/add" routerLinkActive="active">Add Employee</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/employees" routerLinkActive="active">Employees List</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/addcompany" routerLinkActive="active">Add Company</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/addstock" routerLinkActive="active">Add Stock</a>
+              </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/companies" routerLinkActive="active">Companies List</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/stocks" routerLinkActive="active">Stocks List</a>
+              </li>
+    </ul>
+
+  </nav>
+  <div class="container">
+    <br>
+    <h3 style="text-align: center;">STOCK MARKET-CRUD API WITH JSON DATA TABLE</h3>
+    <hr>  
+    <div class="card">
+      <div class="card-body">
+    <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+
+
+

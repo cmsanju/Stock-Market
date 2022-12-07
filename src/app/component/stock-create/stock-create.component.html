@@ -1,0 +1,31 @@
+<h3>Create Stock</h3>
+<div [hidden]="submitted" style="width: 400px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" required [(ngModel)]="stock.name" name="name">
+    </div>
+    <div class="form-group">
+      <label for="exchange">Exchange</label>
+      <input type="text" class="form-control" id="exchange" required [(ngModel)]="stock.exchange" name="exchange">
+    
+    </div>
+    <div class="form-group">
+      <label for="price">Price</label>
+      <input type="text" class="form-control" id="price" required [(ngModel)]="stock.price" name="price">
+    
+    </div>
+    <div class="form-group">
+      <label for="priceDate">PriceDate</label>
+      <input type="text" class="form-control" id="priceDate" required [(ngModel)]="stock.priceDate" name="priceDate">
+    
+    </div>
+    <div class="form-group">
+      <label for="priceTime">PriceTime</label>
+      <input type="text" class="form-control" id="priceTime" required [(ngModel)]="stock.priceTime" name="priceTime">
+    </div>
+
+    <button class="btn btn-success">Submit</button>
+  </form>
+</div>
+

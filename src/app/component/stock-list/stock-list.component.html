@@ -1,0 +1,38 @@
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h2>Stock List</h2>
+  </div>
+  <div class="panel-body">
+    <table id="example" class="table table-striped table-bordered table-sm row-border hover" cellspacing="0" width="100%">
+
+      <thead>
+        <tr>
+          <th >Name</th>
+          <th >Price</th>
+          <th >Exchange</th>
+          <th >PriceDate</th>
+          <th >PriceTime</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let stock of stocks | async">
+          <td>{{stock.name}}</td>
+          <td>{{stock.exchange}}</td>
+          <td>{{stock.price}}</td>
+          <td>{{stock.priceDate}}</td>
+          <td>{{stock.priceTime}}</td>
+          
+            <td><button style='margin-right:16px' (click)="deleteStock(stock.id)" class="btn btn-danger">Delete</button>
+              <button style='margin-right:16px' (click)="updateStock(stock.id)" class="btn btn-success" style="margin-left: 10px">Edit details</button>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+  
+  

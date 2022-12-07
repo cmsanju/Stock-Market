@@ -1,0 +1,136 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "duncan",
+      "email": "australia",
+      "phone": "123",
+      "department": "engineering"
+    },
+    {
+      "id": 2,
+      "name": "duncan",
+      "email": "australia",
+      "phone": "123",
+      "department": "engineering"
+    },
+    {
+      "id": 4,
+      "name": "Sanjeev",
+      "email": "sanju@gmail.com",
+      "phone": "876667888",
+      "department": "CSE"
+    },
+    {
+      "id": 5,
+      "name": "Sanjeev",
+      "email": "sanju@gmail.com",
+      "phone": "876667888",
+      "department": "ECE"
+    },
+    {
+      "id": 6,
+      "name": "Sanjeev",
+      "email": "sanju@gmail.com",
+      "phone": "876667888",
+      "department": "IT"
+    },
+    {
+      "id": 5,
+      "name": "Sanjeev",
+      "email": "sanju@gmail.com",
+      "phone": "876667888",
+      "department": "EEE"
+    },
+    {
+      "id": 8,
+      "name": "Sanjeev",
+      "email": "sanju@gmail.com",
+      "phone": "876667888",
+      "department": "EEE"
+    },
+    {
+      "id": 9,
+      "name": "Sanjeev",
+      "email": "sanju@gmail.com",
+      "phone": "876667888",
+      "department": "EEE"
+    },
+    {
+      "id": 10,
+      "name": "Sanjeev",
+      "email": "sanju@gmail.com",
+      "phone": "876667888",
+      "department": "EEE"
+    },
+    {
+      "id": 11,
+      "name": "Sanjeev",
+      "email": "sanju@gmail.com",
+      "phone": "876667888",
+      "department": "EEE"
+    },
+    {
+      "id": 12,
+      "name": "Sanjeev",
+      "email": "sanju@gmail.com",
+      "phone": "876667888",
+      "department": "EEE"
+    }
+  ],
+  "companies": [
+    {
+      "id": "2",
+      "name": "PWC",
+      "code": "P123",
+      "turnover": "3212",
+      "ceo": "steve",
+      "boardOfDirectors": "apple",
+      "description": "PWC STOCKS"
+    },
+    {
+      "id": "5",
+      "name": "apple",
+      "code": "A23",
+      "turnover": "5336",
+      "ceo": "SANJEEV",
+      "boardOfDirectors": "Sanjeev",
+      "description": "APPLE STOCKS"
+    },
+    {
+      "name": "GMS",
+      "code": "G07",
+      "turnover": "2500",
+      "ceo": "GSN",
+      "boardOfDirectors": "SANJU",
+      "description": "DEVELOPMENT",
+      "id": "22RI1Dq"
+    }
+  ],
+  "stocks": [
+    {
+      "id": "3",
+      "name": "GMS",
+      "exchange": "GMSD",
+      "price": "650",
+      "priceDate": "Mon Dec 05 2022",
+      "priceTime": "15:55"
+    },
+    {
+      "id": "5",
+      "name": "APPLE USA",
+      "exchange": "APLD",
+      "price": "739",
+      "priceDate": "Tue Dec 06 2021",
+      "priceTime": "11:35"
+    },
+    {
+      "name": "TESLA",
+      "exchange": "USD",
+      "price": "383",
+      "priceDate": "Wed Dec 07 2022",
+      "priceTime": "10:06",
+      "id": "OLb8jR7"
+    }
+  ]
+}

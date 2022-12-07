@@ -1,4 +1,4 @@
-# Angular8CrudDemo
+# Stock Market CRUD with API using JSON server
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 

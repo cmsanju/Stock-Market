@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular8-crud-demo",
+            "outputPath": "dist/stock-market",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -128,7 +128,7 @@
       }
     }
   },
-  "defaultProject": "angular8-crud-demo",
+  "defaultProject": "stock-market",
   "cli": {
     "analytics": "83e87c7a-b222-4978-be6e-c44059c08f28"
   }
